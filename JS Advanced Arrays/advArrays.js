@@ -16,9 +16,6 @@ console.log('filter ->', filteredArr); // [2, 4]
 const sum = nums.reduce((acc, num) => acc + num, 0); // acc is the acummulated (running total)
 console.log('reduce (sum) ->', sum); // 15
 
-// forEach -> iterate and log each value with index
-console.log('forEach ->');
-nums.forEach((num, idx) => console.log(`index ${idx}: ${num}`));
 
 // Chaining example: filter evens then double them
 const doubleEvens = nums
