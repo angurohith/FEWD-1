@@ -4,16 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<script src="events.js" defer></script>
 </head>
 <body>
+	<form id="myForm">
+		<label for="inputField">Enter Name:</label>
+		<input type="text" id="inputField" name="inputField">
+		<input type="submit" value="Submit">
+	</form>
+
 	<button id="btn">Click Me</button>
-    
+
 </body>
-<script>
-	const button = document.getElementById('btn');
-	button.addEventListener('click', function(event) {
-		alert('Button was clicked!');
-		console.log('Event Object:', event);
-	});
-</script>
 </html>
